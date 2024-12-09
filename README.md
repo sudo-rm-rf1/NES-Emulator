@@ -1,14 +1,14 @@
-# NES Emulator
+# NES Emulator (LINK [HERE](https://sudo-rm-rf1.github.io/NES-Emulator/))
 ## Description
 
-Fully functional NES emulator made in JavaScript that can run in the browser at full speed (on most devices).
+Fully functional NES emulator made in JavaScript that can run in the browser at full speed (on most devices). LINK [HERE](https://sudo-rm-rf1.github.io/NES-Emulator/)
 
 ## How to play
 
 1. First clone or download the repository
 2. Open index.html in a browser
 
-(Alternatively use the link here)
+(Alternatively use the link [here](https://sudo-rm-rf1.github.io/NES-Emulator/))
 
 ## Controls
 * Arrow Keys or WASD for directional input
