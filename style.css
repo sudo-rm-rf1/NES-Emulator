@@ -1,0 +1,98 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to bottom, #1e1e1e, #3a3a3a);
+  color: #ffffff;
+  text-align: center;
+}
+
+header {
+  background: #272727;
+  padding: 20px 0;
+  border-bottom: 2px solid #444;
+}
+
+header h1 {
+  font-size: 2em;
+  margin: 0;
+}
+
+main {
+  margin: 20px auto;
+  width: 90%;
+  max-width: 600px;
+}
+
+.controls {
+  margin-bottom: 20px;
+  background: #3a3a3a;
+  border: 2px solid #444;
+  border-radius: 8px;
+  padding: 20px;
+}
+
+.file-label {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 1.1em;
+}
+
+#rom {
+  display: inline-block;
+  margin-bottom: 20px;
+}
+
+.buttons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+
+button {
+  background: #ff5722;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background: #e64a19;
+}
+
+#output {
+  width: 768px;
+  height: 720px;
+  margin: 20px auto;
+  display: block;
+  border: 2px solid #444;
+  background: black;
+  image-rendering: crisp-edges;
+  image-rendering: pixelated;
+}
+
+#log {
+  font-family: "Courier New", monospace;
+  max-height: 200px;
+  overflow-y: auto;
+  text-align: left;
+  background: #1e1e1e;
+  border: 2px solid #444;
+  color: #c0c0c0;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+footer {
+  margin-top: 20px;
+  padding: 10px;
+  background: #272727;
+  color: #aaaaaa;
+  font-size: 0.9em;
+  border-top: 2px solid #444;
+}

@@ -1,0 +1,34 @@
+<!doctype html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <title>NES Emulator</title>
+</head>
+<body>
+  <header>
+    <h1>NES Emulator</h1>
+  </header>
+  <main>
+    <div class="controls">
+      <label for="rom" class="file-label">Upload ROM:</label>
+      <input id="rom" type="file">
+      <div class="buttons">
+        <button id="pause">Pause</button>
+        <button id="reset">Reset</button>
+        <button id="hardreset">Power Cycle</button>
+        <button id="runframe">Run 1 Frame</button>
+      </div>
+    </div>
+    <canvas id="output"></canvas>
+    <pre id="log"></pre>
+  </main>
+  <footer>
+    <p>NES Emulator</p>
+  </footer>
+  
+  <script src="lib.js"></script>
+  <script src="mappers.js"></script>
+  <script src="main.js"></script>
+  <script src="src.js"></script>
+</body>
+</html>
